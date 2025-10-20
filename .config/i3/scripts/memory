@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+#=====================================================
+# @author: Shashank Singh
+# Theme: Tokyonight
+#
+# Script to calculate & display memory/swap usage (%)
+#=====================================================
+
+TYPE="${BLOCK_INSTANCE:-mem}"
+
+awk -v type="$TYPE" '
+/^MemTotal:/ { mem_total=$2 }
+/^MemFree:/ { mem_free=$2 }
+/^Buffers:/ { mem_free+=$2 }
+/^Cached:/ { mem_free+=$2 }
+/^SwapTotal:/ { swap_total=$2 }
+/^SwapFree:/ { swap_free=$2 }
+END {
+    # Select memory or swap based on TYPE
+    if (type == "swap") {
+        total = swap_total
+        free = swap_free
+    } else {
+        total = mem_total
+        free = mem_free
+    }
+
+    used = total - free
+    pct = total > 0 ? (used / total) * 100 : 0
+
+    # Output only percentage
+    printf "%.0f%%\n", pct
+}
+' /proc/meminfo
+

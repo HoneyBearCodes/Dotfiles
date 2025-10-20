@@ -1,0 +1,12 @@
+#!/bin/bash
+
+NORMAL_COLOR="#73daca"
+CAPS_ON_COLOR="#E0AF68"
+
+LABEL=" Antah: Asthi Prarambha "
+
+if xset q | grep "Caps Lock:   on" >/dev/null; then
+  echo "%{F$CAPS_ON_COLOR}$LABEL%{F-}"
+else
+  echo "%{F$NORMAL_COLOR}$LABEL%{F-}"
+fi

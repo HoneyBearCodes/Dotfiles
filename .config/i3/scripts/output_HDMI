@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+#===================================================
+# @author: Shashank Singh
+#
+# Script to only enable HDMI-1 and disable the rest
+#===================================================
+
+xrandr \
+  --output eDP-1 --off \
+  --output HDMI-1 --primary --mode 1920x1080 --pos 1920x0 --rotate normal

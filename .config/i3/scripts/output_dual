@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+#=========================================
+# @author: Shashank Singh
+#
+# Script to initialize dual-monitor setup
+#=========================================
+
+xrandr --newmode "1368x768" 85.25 1368 1440 1576 1784 768 771 781 798 -hsync +vsync
+xrandr --addmode HDMI-1 "1368x768"
+sleep 2
+xrandr \
+  --output eDP-1 --mode 1920x1080 --pos 0x0 --rotate normal \
+  --output HDMI-1 --primary --mode 1368x768 --pos 1920x0 --rotate normal

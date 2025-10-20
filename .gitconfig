@@ -1,0 +1,14 @@
+[user]
+	name = Shashank Singh
+	email = 96770927+HoneyBearCodes@users.noreply.github.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret

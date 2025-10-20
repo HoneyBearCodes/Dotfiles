@@ -1,0 +1,16 @@
+* {
+    bg0:    #1a1b26;   /* Main background */
+    bg1:    #24283b;   /* Input bar background */
+    bg2:    #414868;   /* Message / secondary background */
+    bg3:    #7aa2f7;   /* Selection highlight (blue) */
+    fg0:    #c0caf5;   /* Default foreground text */
+    fg1:    #a9b1d6;   /* Header text */
+    fg2:    #9aa5ce;   /* Prompt text */
+    fg3:    #565f89;   /* Placeholder text */
+}
+
+@import "template/rounded.rasi"
+
+element selected {
+    text-color: @bg1;
+}
