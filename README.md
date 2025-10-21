@@ -19,7 +19,7 @@ This repository showcases my meticulously crafted **Arch Linux configuration**, 
 ## 🛠️ Detailed Setup
 
 ### 🖌️ Appearance
-- **GTK+ Theme**: [Tokyonight GTK Theme](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme)
+- **GTK+ Theme**: [Tokyonight GTK Theme](https://www.gnome-look.org/p/1681315)
 - **Icon Theme**: [Catppuccin for Papirus Folders](https://github.com/catppuccin/papirus-folders)
 - **Cursor Theme**: [WhiteSur Cursors](https://github.com/vinceliuice/WhiteSur-cursors)
 - **Login Manager**: LightDM GTK Greeter with custom theme
