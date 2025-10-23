@@ -38,7 +38,7 @@ set -x -g CHROME_EXECUTABLE /opt/brave-bin/brave # For Flutter to detect the bro
 set -x -g JAVA_HOME /usr/lib/jvm/java-21-openjdk # OpenJDK 21 LTS
 set -x -g GRADLE_HOME /usr/share/java/gradle # Gradle (Latest)
 set -x -g SSH_AUTH_SOCK /run/user/1000/gcr/ssh
-set -x -g ANDROID_HOME /home/honey/Android/Sdk/
+set -x -g ANDROID_HOME "$HOME/Android/Sdk"
 
 # ========================
 # Environment Variables

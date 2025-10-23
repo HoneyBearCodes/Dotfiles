@@ -47,4 +47,4 @@ SETUVAR fish_pager_color_selected_background:\x1d
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/honey/\x2envm/versions/node/v22\x2e20\x2e0/bin\x1e/home/honey/Android/Sdk/platform\x2dtools\x1e/home/honey/\x2epub\x2dcache/bin\x1e/opt/android\x2dstudio/bin\x1e/usr/lib/flutter/bin\x1e/usr/share/java/gradle/bin\x1e/usr/lib/jvm/java\x2d21\x2dopenjdk/bin\x1e/home/honey/\x2espicetify\x1e/home/honey/\x2envm/versions/node/v22\x2e12\x2e0/bin\x1e/home/honey/\x2elocal/bin
+SETUVAR fish_user_paths:/home/honey/\x2envm/versions/node/v22\x2e21\x2e0/bin\x1e/home/honey/\x2envm/versions/node/v22\x2e20\x2e0/bin\x1e/home/honey/Android/Sdk/platform\x2dtools\x1e/home/honey/\x2epub\x2dcache/bin\x1e/opt/android\x2dstudio/bin\x1e/usr/lib/flutter/bin\x1e/usr/share/java/gradle/bin\x1e/usr/lib/jvm/java\x2d21\x2dopenjdk/bin\x1e/home/honey/\x2espicetify\x1e/home/honey/\x2envm/versions/node/v22\x2e12\x2e0/bin\x1e/home/honey/\x2elocal/bin
