@@ -1,0 +1,17 @@
+CompileFlags:
+  Add:
+    - -Wall
+    - -Wextra
+    - -O2
+
+If:
+  PathMatch: [".*\\.cpp", ".*\\.cc", ".*\\.cxx", ".*\\.hpp", ".*\\.hxx"]
+  CompileFlags:
+    Add: [-std=c++17]
+
+If:
+  PathMatch: [".*\\.c", ".*\\.h"]
+  CompileFlags:
+    Add: [-std=c17]
+
+FallbackStyle: Google
