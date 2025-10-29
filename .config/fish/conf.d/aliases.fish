@@ -7,12 +7,17 @@
 alias v=nvim
 alias sv='sudo nvim'
 alias config='/usr/bin/git --git-dir=$HOME/Workspace/Repos/Dotfiles --work-tree=$HOME'
+alias sysconfig='sudo /usr/bin/git --git-dir=/mnt/QuantumArchive/Backup/Arch/Sysfiles --work-tree=/'
 alias edge=microsoft-edge-stable
 alias add-ssh='~/Workspace/Repos/Projects/Scripts/add_ssh.py'
 alias inscrybe='~/Workspace/Repos/Projects/Scripts/inscrybe.sh'
-alias st='speedtest --progress=yes'
+alias st='speedtest++'
 alias run='~/Workspace/Repos/Projects/Scripts/run.sh'
 alias refresh-mirrors='sudo reflector --country India,Japan,Singapore --latest 20 --protocol https --sort score --save /etc/pacman.d/mirrorlist --verbose'
+alias smb-start='sudo systemctl start smb nmb'
+alias smb-stop='sudo systemctl stop smb nmb'
+alias nfs-start='sudo systemctl start nfs-server && sudo exportfs -a'
+alias nfs-stop='sudo systemctl stop nfs-server'
 
 # Aliases for navigating backwards
 alias ..='cd ..'
