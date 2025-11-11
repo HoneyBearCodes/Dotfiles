@@ -264,7 +264,7 @@ for_window [window_role="GtkFileChooserDialog"] resize set 788 398
 bindsym F1 exec rofi -show emoji -theme ~/.config/rofi/themes/tokyonight-single-col.rasi
 bindsym F3 exec rofi -show calc -modi calc -no-show-match -no-sort -theme ~/.config/rofi/themes/tokyonight-launcher.rasi
 bindsym $mod+d exec rofi -modi drun -show drun -theme ~/.config/rofi/themes/tokyonight-launcher.rasi
-bindsym $mod+t exec rofi -show window -theme ~/.config/rofi/themes/rounded-nord-dark.rasi.rasi
+bindsym $mod+t exec rofi -show window -theme ~/.config/rofi/themes/tokyonight-launcher.rasi
 bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard -theme ~/.config/rofi/themes/tokyonight-single-col.rasi
 # ========================
 # Theme Configuration
